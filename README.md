@@ -4,7 +4,7 @@ Fetch Rewards Coding Exercise - Backend Software Engineering
 <!-- Built with -->
 ## Built With
 __Backend:__ Python3 \
-__Framework:__ Flask, Jinja2 \
+__Framework:__ Flask, Jinja2 
 
 <!-- Installation steps -->
 ## Installation
