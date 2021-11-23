@@ -1,0 +1,19 @@
+{% extends 'base.html' %} 
+{% block title %}Spend Points{% endblock %} 
+
+{% block content %}
+<h1>Spend Points</h1>
+
+<form action="/spend" method="GET" id="spend">
+  <label for="spend">Spend Points: </label>
+  <input type="number" id="spent" name="spend" required />
+  <br />
+  <button id="spentButton" type="submit">Submit</button>
+</form>
+
+<p>{% if points_spent %}
+      <p>{{ points_spent }}</p>
+   {% endif %}
+</p>
+
+{% endblock %}

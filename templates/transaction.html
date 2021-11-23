@@ -1,0 +1,13 @@
+{% extends 'base.html' %} 
+{% block title %}Transactions{% endblock %} 
+
+{% block content %}
+<h1>All Transaction</h1>
+
+<ul>
+  {% for account in accounts %}
+  <li>{{ account }}</li>
+  {% endfor %}
+</ul>
+
+{% endblock %}

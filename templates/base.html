@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{% block title %}Fetch Rewards Coding Exercise{% endblock %}</title>
+    {% endblock %}
+  </head>
+  <body>
+    {% block navbar %}
+    <nav>
+      <ul>
+        <li><a href="/">View all transaction</a></li>
+        <li><a href="/add_transaction">Add transaction</a></li>
+        <li><a href="/spend">Spend points</a></li>
+        <li><a href="/balance">View all Balance</a></li>
+      </ul>
+    </nav>
+    {% endblock %} 
+
+    {% block content %} {% endblock %} 
+  </body>
+</html>
